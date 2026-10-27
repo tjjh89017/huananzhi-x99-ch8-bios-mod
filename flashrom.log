@@ -1,0 +1,98 @@
+date@x99:~$ sudo flashrom -p internal -r dump1.bin
+sudo flashrom -p internal -r dump2.bin
+sha256sum dump1.bin dump2.bin
+flashrom unknown on Linux 7.0.0-34-generic (x86_64)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Found chipset "Intel C610/X99 (Wellsburg)".
+This chipset is marked as untested. If you are using an up-to-date version
+of flashrom *and* were (not) able to successfully update your firmware with it,
+then please email a report to flashrom@flashrom.org including a verbose (-V) log.
+Thank you!
+Enabling flash write... SPI Configuration is locked down.
+FREG0: Flash Descriptor region (0x00000000-0x00000fff) is read-write.
+FREG1: BIOS region (0x00800000-0x00ffffff) is read-write.
+FREG2: Management Engine region (0x00001000-0x007fffff) is read-write.
+OK.
+Error accessing MX66L1G45G, 0x8000000 bytes at 0x00000000f8000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MX66L1G45G at 0x00000000f8000000.
+Error accessing N25Q00A..1G, 0x8000000 bytes at 0x00000000f8000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip N25Q00A..1G at 0x00000000f8000000.
+Error accessing N25Q00A..3G, 0x8000000 bytes at 0x00000000f8000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip N25Q00A..3G at 0x00000000f8000000.
+Error accessing MT25QL01G, 0x8000000 bytes at 0x00000000f8000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QL01G at 0x00000000f8000000.
+Error accessing MT25QU01G, 0x8000000 bytes at 0x00000000f8000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QU01G at 0x00000000f8000000.
+Error accessing MT25QL02G, 0x10000000 bytes at 0x00000000f0000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QL02G at 0x00000000f0000000.
+Error accessing MT25QU02G, 0x10000000 bytes at 0x00000000f0000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QU02G at 0x00000000f0000000.
+Found Winbond flash chip "W25Q128.V" (16384 kB, SPI) mapped at physical address 0x00000000ff000000.
+===
+This flash part has status UNTESTED for operations: WP
+The test status of this chip may have been updated in the latest development
+version of flashrom. If you are running the latest development version,
+please email a report to flashrom@flashrom.org if any of the above operations
+work correctly for you with this flash chip. Please include the flashrom log
+file for all operations you tested (see the man page for details), and mention
+which mainboard or programmer you tested in the subject line.
+Thanks for your help!
+Reading flash... done.
+flashrom unknown on Linux 7.0.0-34-generic (x86_64)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Found chipset "Intel C610/X99 (Wellsburg)".
+This chipset is marked as untested. If you are using an up-to-date version
+of flashrom *and* were (not) able to successfully update your firmware with it,
+then please email a report to flashrom@flashrom.org including a verbose (-V) log.
+Thank you!
+Enabling flash write... SPI Configuration is locked down.
+FREG0: Flash Descriptor region (0x00000000-0x00000fff) is read-write.
+FREG1: BIOS region (0x00800000-0x00ffffff) is read-write.
+FREG2: Management Engine region (0x00001000-0x007fffff) is read-write.
+OK.
+Error accessing MX66L1G45G, 0x8000000 bytes at 0x00000000f8000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MX66L1G45G at 0x00000000f8000000.
+Error accessing N25Q00A..1G, 0x8000000 bytes at 0x00000000f8000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip N25Q00A..1G at 0x00000000f8000000.
+Error accessing N25Q00A..3G, 0x8000000 bytes at 0x00000000f8000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip N25Q00A..3G at 0x00000000f8000000.
+Error accessing MT25QL01G, 0x8000000 bytes at 0x00000000f8000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QL01G at 0x00000000f8000000.
+Error accessing MT25QU01G, 0x8000000 bytes at 0x00000000f8000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QU01G at 0x00000000f8000000.
+Error accessing MT25QL02G, 0x10000000 bytes at 0x00000000f0000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QL02G at 0x00000000f0000000.
+Error accessing MT25QU02G, 0x10000000 bytes at 0x00000000f0000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QU02G at 0x00000000f0000000.
+Found Winbond flash chip "W25Q128.V" (16384 kB, SPI) mapped at physical address 0x00000000ff000000.
+===
+This flash part has status UNTESTED for operations: WP
+The test status of this chip may have been updated in the latest development
+version of flashrom. If you are running the latest development version,
+please email a report to flashrom@flashrom.org if any of the above operations
+work correctly for you with this flash chip. Please include the flashrom log
+file for all operations you tested (see the man page for details), and mention
+which mainboard or programmer you tested in the subject line.
+Thanks for your help!
+Reading flash... done.
+7bd6e5fe1fee422d40e355c4c2cd4e73a061f10cf419d1ec05762461cbbd0fe2  dump1.bin
+7bd6e5fe1fee422d40e355c4c2cd4e73a061f10cf419d1ec05762461cbbd0fe2  dump2.bin
+date@x99:~$
